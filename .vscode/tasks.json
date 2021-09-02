@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "postbuild",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: postbuild",
+			"detail": "npm run copy:server"
+		}
+	]
+}
